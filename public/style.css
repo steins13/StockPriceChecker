@@ -26,3 +26,103 @@ input[type='text'] {
 .mt-200 {
   margin-top: 200px;
 }
+
+#title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+  width: 1400px;
+  height: 100px;
+  font-family: cursive;
+  color: #4c4747;
+  text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+  font-size: 80px;
+}
+
+body {
+  background: linear-gradient(to right, #F8F7F7 0%, #F3F3F3 50%, #F3F3F3 100%);
+}
+
+#box1 {
+  height: 350px;
+  display: block;
+}
+
+#box2 {
+  display: block;
+  height: 350px;
+}
+
+#box1title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  font-family: monospace;
+  margin-top: 20px;
+}
+
+#testForm2 {
+  height: 300px;
+}
+
+#testForm {
+  height: 300px;
+}
+
+#box1input {
+  width: 75%;
+  display: flex;
+  margin: auto 0px;
+  height: 50px;
+}
+
+#box2input {
+  width: 35%;
+  display: flex;
+  margin: auto 5px;
+  height: 50px;
+}
+
+#box1check {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box1btn {
+  height: 50px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+#box-check {
+  width: 70px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#jsonResult {
+  width: 100%;
+  height: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  margin: 5px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: chocolate;
+}
